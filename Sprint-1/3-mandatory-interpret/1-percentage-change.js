@@ -1,13 +1,13 @@
-let carPrice = "10,000";
-let priceAfterOneYear = "8,543";
+let carPrice = "10,000"; //declaration of variable
+let priceAfterOneYear = "8,543"; //declaration of variable
 
-carPrice = Number(carPrice.replaceAll(",", ""));
-priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
+carPrice = Number(carPrice.replaceAll(",", ""));//function (Number,replaceAll)/ redeclaration of carPrice 
+priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ,""));//function (Number,replaceAll)/redeclaration of PriceAfterOneYear
 
-const priceDifference = carPrice - priceAfterOneYear;
-const percentageChange = (priceDifference / carPrice) * 100;
+const priceDifference = carPrice - priceAfterOneYear;//declaration of variable
+const percentageChange = (priceDifference / carPrice) * 100;//declaration of variable
 
-console.log(`The percentage change is ${percentageChange}`);
+console.log(`The percentage change is ${percentageChange}`);//Function console.log
 
 // Read the code and then answer the questions below
 
@@ -20,3 +20,4 @@ console.log(`The percentage change is ${percentageChange}`);
 // d) Identify all the lines that are variable declarations
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
+done
